@@ -1,0 +1,48 @@
+body{
+    background-image : url("img/paper.jpg") ;
+}
+
+.name {
+  /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  text-align:center;
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+p{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:20px;
+  margin-right:20px;
+  font-size: 150%
+}
+p::first-letter {
+  font-style: italic;
+}
+
+p a{
+  font-style: italic;
+}
+
+.caption  p{
+  font-weight:normal;
+  text-align:center;
+  font-size:100%;
+  text-indent:0%;}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-right: 10px;
+    color:#003333;
+    font-style: italic;
+    font-size: 300%
+}
+
+img {
+    border: 5px solid #003333;
+    border-radius: 40px;
+    padding: 10px;
+    width: 200px;
+}
